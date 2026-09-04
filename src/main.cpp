@@ -31,5 +31,5 @@ void setup() {
 void loop() {
   AtomS3.update();
   apiServer.handleClient();
-  delay(1); // CPU負荷・発熱を抑えるための小休止
+  delay(10); // CPU負荷・発熱を抑えるための小休止
 }
